@@ -24,7 +24,7 @@ public class User {
 
     @NotEmpty(message = "Lastname should not be empty")
     @Size(min=2, max = 30, message = "Lastname should be between 2 and 30 characters")
-    @Column(name = "lastName")
+    @Column(name = "lastname")
     private String lastname;
 
     @NotEmpty(message = "Email should not be empty")
